@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="GetMyShow App Icon Tilted">
+  <title>GetMyShow App Icon (Tilted)</title>
+  <defs>
+    <linearGradient id="bg_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#3730A3"/>
+    </linearGradient>
+    <filter id="icon_shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bg_grad)"/>
+  <g transform="translate(256,256) rotate(-9) translate(-256,-256)" filter="url(#icon_shadow)">
+    <path fill="#FFFFFF" d="M 76.00 126.00 H 120.00 A 16.00 16.00 0 0 0 152.00 126.00 H 240.00 A 16.00 16.00 0 0 0 272.00 126.00 H 360.00 A 16.00 16.00 0 0 0 392.00 126.00 H 436.00 A 22.00 22.00 0 0 1 458.00 148.00 V 222.00 A 34.00 34.00 0 0 0 458.00 290.00 V 364.00 A 22.00 22.00 0 0 1 436.00 386.00 H 392.00 A 16.00 16.00 0 0 0 360.00 386.00 H 272.00 A 16.00 16.00 0 0 0 240.00 386.00 H 152.00 A 16.00 16.00 0 0 0 120.00 386.00 H 76.00 A 22.00 22.00 0 0 1 54.00 364.00 V 290.00 A 34.00 34.00 0 0 0 54.00 222.00 V 148.00 A 22.00 22.00 0 0 1 76.00 126.00 Z"/>
+    <line x1="136.00" y1="144.00" x2="136.00" y2="368.00" stroke="#CBD5E1" stroke-width="4.5" stroke-dasharray="9 8" stroke-linecap="round"/>
+    <path fill="#4F46E5" d="M1430 0V590Q1430 664 1403.5 700.5Q1377 737 1317 737Q1258 737 1225.0 692.5Q1192 648 1192 569V0H766V580Q766 737 659 737Q594 737 561.0 691.5Q528 646 528 561V0H102V1024H528V862H532Q556 905 608.5 949.5Q661 994 727.0 1021.5Q793 1049 870 1049Q979 1049 1053.5 1006.0Q1128 963 1178 870Q1232 956 1322.0 1002.5Q1412 1049 1522 1049Q1683 1049 1769.0 944.0Q1855 839 1855 641V0Z" transform="translate(172,292) scale(0.0605,-0.0605)"/>
+  <path fill="#4F46E5" d="M301 -481Q241 -481 172.0 -470.5Q103 -460 49 -440V-119Q74 -138 123.5 -154.0Q173 -170 217 -170Q336 -170 375 -76L408 4L-20 1024H451L575 530Q611 392 614 344H618Q621 366 626.5 393.0Q632 420 782 1024H1196L819 -29Q734 -271 608.5 -376.0Q483 -481 301 -481Z" transform="translate(289.82,292) scale(0.0605,-0.0605)"/>
+    <path d="M 375 237 L 401 256 L 375 275 Z" fill="#F97316"/>
+  </g>
+</svg>
