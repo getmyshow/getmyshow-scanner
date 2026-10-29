@@ -32,3 +32,53 @@ body {
   padding: 8px 16px !important;
   font-weight: 600 !important;
 }
+
+/* Cyberpunk Laser Scanning Beam (raylight.app) */
+@keyframes laserSweep {
+  0% {
+    top: 2%;
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    top: 96%;
+    opacity: 0.6;
+  }
+}
+
+.laser-beam {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 5%, #10B981 30%, #34D399 50%, #10B981 70%, transparent 95%);
+  box-shadow: 0 0 14px 3px rgba(16, 185, 129, 0.75), 0 0 28px 6px rgba(16, 185, 129, 0.35);
+  animation: laserSweep 1.8s ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+/* Head shake alert animation for duplicate passes (affectui.com) */
+@keyframes headShake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-8px) rotate(-1.5deg); }
+  40% { transform: translateX(7px) rotate(1.5deg); }
+  60% { transform: translateX(-5px) rotate(-1deg); }
+  80% { transform: translateX(3px) rotate(0.5deg); }
+  100% { transform: translateX(0); }
+}
+
+.animate-shake {
+  animation: headShake 0.4s ease-in-out;
+}
+
+/* Subtle glowing pulse for telemetry badges */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-telemetry {
+  animation: pulseGlow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
